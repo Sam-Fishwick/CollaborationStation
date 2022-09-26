@@ -1,0 +1,2 @@
+new file in feature branch
+a new line on the feature branch only (presumably)
