@@ -1,2 +1,16 @@
 new file in feature branch
 a new line on the feature branch only (presumably)
+
+log:
+- added feature branch, checked out to feature branch, and added this .txt
+file.
+- Checked out to main branch and expected this .txt file to disappear from
+local directory, but it remained.
+- Checked out again to feature branch and added, committed, and pushed this
+.txt file to feature branch.
+- Checked out again to main branch and this .txt file disappeared from local
+directory, which is cool.
+
+Conclusion:
+- Local directory won't react to git branching unless appropriate directories
+or files are committed.
