@@ -51,3 +51,8 @@ Merged
 
 Updated Log
     >  git commit -m "Updated Log after Merge"
+
+
+Accepted Sam's Collaboration Invitation
+I then cloned the repository directly from his GitHub
+    >  git clone https://github.com/Sam-Fishwick/CollaborationStation
