@@ -56,3 +56,19 @@ Updated Log
 Accepted Sam's Collaboration Invitation
 I then cloned the repository directly from his GitHub
     >  git clone https://github.com/Sam-Fishwick/CollaborationStation
+
+Added, Committed, and Pushed
+    >  git add .
+    >  git commit -m "Cloned CollaborationStation +updated log"
+    >  git push
+    Enumerating objects: 5, done.
+    Counting objects: 100% (5/5), done.
+    Delta compression using up to 8 threads
+    Compressing objects: 100% (3/3), done.
+    Writing objects: 100% (3/3), 442 bytes | 442.00 KiB/s, done.
+    Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+    remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+    To https://github.com/Sam-Fishwick/CollaborationStation
+       89c1a95..5a306ba  main -> main
+
+Successful Collaboration
