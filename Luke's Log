@@ -79,3 +79,15 @@ Sent Collaboration Invitation to Sam for my personal random testing/practice not
         + Notes on Vim usage
         + Notes on Git/GitHub usage
         + Split Keyboard practice notes 
+
+Using 'git pull' I receive warnings that its unsafe, So I searched about it
+    +  I followed advice from this link https://stackoverflow.com/questions/15316601/in-what-cases-could-git-pull-be-harmful
+    +  Created an alias 'git up' that will be used instead of 'git pull' as this is
+    apparently cleaner and easier to use (and pulls from all branches not just current)
+    + set up by entering the following command:
+        git config --global alias.up '!git remote update -p; git merge --ff-only @{u}'
+
+'git diff' seems like a useful command
+    +  It shows recent changes to files since last commit (i guess)
+    +  only seems to do so for "unstaged" (not added) files which seems weird
+    +  presumably to help developer to determine what should be committed or not
