@@ -14,3 +14,7 @@ directory, which is cool.
 Conclusion:
 - Local directory won't react to git branching unless appropriate directories
 or files are committed.
+
+Merging feature branch to main with this .txt being the only difference.
+- git checkout main
+- git merge feature 
