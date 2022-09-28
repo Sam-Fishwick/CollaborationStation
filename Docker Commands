@@ -13,6 +13,9 @@ docker volume rm $(docker volume ls -q)
 To build:
 docker-compose build
 
+Airflow Address:
+http://localhost:8080/home
+
 DO NOT BLOODY TRY TO RESTART CONTAINERS WITHOUT BUILDING THEN IF YOU DELETED THE ENTIRE THING. Thanks you :)
 
 
