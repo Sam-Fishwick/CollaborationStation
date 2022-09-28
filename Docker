@@ -1,0 +1,18 @@
+To stop the container, use the following command:
+docker-compose down
+
+To restart the containers:
+docker-compose up -d
+
+To delete all the containers:
+docker rm -f $(docker ps -a -q)
+
+To delete all the volumes:
+docker volume rm $(docker volume ls -q)
+
+To build:
+docker-compose build
+
+DO NOT BLOODY TRY TO RESTART CONTAINERS WITHOUT BUILDING THEN IF YOU DELETED THE ENTIRE THING. Thanks you :)
+
+

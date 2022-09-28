@@ -1,0 +1,16 @@
+Some Git commands:
+git branch = shows what branch you are in;
+git checkout random_branch = takes you to random_branch;
+git branch -a = check every branch;
+git checkout -b random_branch = creates random_branch (if it doesn't exist) and takes you there;
+git add = Add changes to staging;
+git commit -m "Add description here" = Commit what was in staging with the descripton "Add description here";
+git branch -d random_branch = deletes the branch random_branch as long as you're outside of this branch and its merge with the master was made already;
+git branch -D random_branch = deletes the branch irrespective of its merged status;
+git pull = brings everything in the branch repository you are in to your local machine;
+git push = inserts everything from your local machine in the branch repository ;
+
+WHEN YOU USE "git push", A LINK TO MERGE WILL BE ANNOUNCED.
+Use that link to merge your branch to the master repository.
+PS: If you already have a merge in progress, a "git push" will suffice.
+

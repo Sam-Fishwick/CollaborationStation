@@ -1,0 +1,15 @@
+How to set an alias permanently
+First step, make the following statement with the desired alias and the function you want to use the alias for:
+desired_alias='function_you_want_to_replace'
+
+WARNING: it is really important you have no spaces around the "="!
+
+Second step, add the previous command to the following file:
+nano ~/.bashrc -----> paste ALIAS + alias command at the very end of this file. YOU MUST ADD THE WORD alias BEFORE THE COMMAND LKE THISs:
+
+alias desired_alias='function_you_want_to_replace'
+
+Third step,  run the followind command:
+source ~/.bashrc
+
+Restart your machine and now your new alias can be used for the function you wanted to replace.
