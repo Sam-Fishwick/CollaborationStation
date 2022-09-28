@@ -1,0 +1,2 @@
+If you try git checkout without git fetch first you may have problems in case your branch was created remotelly and not locally.
+:o 
